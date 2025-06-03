@@ -3,8 +3,10 @@ import "./globals.css";
 
 import Footer from "@/common/Footer";
 import Header from "@/common/Header";
+
 import { Noto_Sans } from "next/font/google";
 import { GoogleTranslateProvider } from "./GoogleLanguageProvider";
+
 import Providers from "./provider";
 
 const notoSans = Noto_Sans({
