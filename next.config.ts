@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
       {
+        protocol: "https",
+        hostname: "electricity.pokharauae.com",
+        pathname: "/**",
+      },
+      {
         protocol: "http",
         hostname: "192.168.1.126",
         port: "8001",
