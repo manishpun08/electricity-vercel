@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Noto_Sans } from "next/font/google";
-import Providers from "./provider";
-import Header from "@/common/Header";
 import Footer from "@/common/Footer";
+import Header from "@/common/Header";
+import { Noto_Sans } from "next/font/google";
 import { GoogleTranslateProvider } from "./GoogleLanguageProvider";
-import BotPopup from "@/features/chatbot/BotPopup";
+import Providers from "./provider";
 
 const notoSans = Noto_Sans({
   variable: "--font-noto-sans",
@@ -33,7 +32,7 @@ export default function RootLayout({
           <GoogleTranslateProvider>
             <div className="flex flex-col min-h-screen">
               <Header />
-              <BotPopup />
+              {/* <BotPopup /> */}
               <div className="flex-grow">{children}</div>
               <Footer />
             </div>

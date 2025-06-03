@@ -82,5 +82,5 @@ export const endpoints: Endpoints = {
 
 export const BASE_API_URL = "http://electricity.pokharauae.com/api/v1";
 
-export const BASE_CHATBOT_URL = process.env.NEXT_PUBLIC_API_URL_CHATBOT;
+export const BASE_CHATBOT_URL = "http://192.168.1.97:8001/api/v1";
 // export const BASE_SOCKET_URL = process.env.NEXT_PUBLIC_CHATBOT_SOCKET_URL;
