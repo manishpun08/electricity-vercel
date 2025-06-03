@@ -9,7 +9,8 @@
     "lint": "next lint",
     "prepare": "husky",
     "format": "prettier --write .",
-    "sharp": "^0.33.0"
+    "sharp": "^0.33.0",
+    "postinstall": "npm install --platform=linux --arch=x64 lightningcss-linux-x64-gnu || true"
   },
   "dependencies": {
     "@bprogress/next": "^3.2.12",
